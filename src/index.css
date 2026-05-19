@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-white text-[#191A23] font-sans antialiased m-0 p-0 min-h-screen block;
+  }
+}
+
+/* Custom classes for the brutalist hard card shadows seen in your Figma designs */
+.brutal-shadow {
+  box-shadow: 4px 4px 0px 0px #191A23;
+}
+
+.brutal-shadow-lg {
+  box-shadow: 6px 6px 0px 0px #191A23;
+}
